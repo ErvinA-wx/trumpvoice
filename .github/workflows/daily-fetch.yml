@@ -1,5 +1,4 @@
 name: Daily TrumpVoice Fetch
-
 on:
   schedule:
     - cron: '0 2 * * *'
