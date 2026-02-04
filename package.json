@@ -1,0 +1,21 @@
+{
+  "name": "trumpvoice-fetcher",
+  "version": "1.0.0",
+  "description": "TrumpVoice - Social media data fetcher for Trump posts",
+  "main": "src/fetcher.js",
+  "scripts": {
+    "fetch": "node src/fetcher.js",
+    "fetch:x": "node src/fetcher.js x",
+    "fetch:instagram": "node src/fetcher.js instagram",
+    "fetch:facebook": "node src/fetcher.js facebook",
+    "fetch:all": "node src/fetcher.js x instagram facebook",
+    "test": "node scripts/test-connection.js"
+  },
+  "dependencies": {
+    "apify-client": "^2.9.0",
+    "@supabase/supabase-js": "^2.39.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
